@@ -105,8 +105,27 @@ header {
 
 }
 
+/* anchor tags which are children of the header */
+
+header a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+
 h1 {
     font-family: "oswald", sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+
+}
+
+.menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
 }
 
 /* Main content */
