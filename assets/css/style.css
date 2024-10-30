@@ -57,9 +57,13 @@ h1 {
     margin-bottom: 1em;
 }
 
+#menu li a:hover {
+    border-bottom: 2px solid #3a3a3a;
+}
+
 /* Active menu class (dot because it's a class to be applied) */
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -153,9 +157,6 @@ main {
 /* media query for small laptops - interactivity/responsiveness on hyperlinks */
 
 @media screen and (min-width: 992px) {
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
+  
 
 }
