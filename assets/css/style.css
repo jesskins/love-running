@@ -97,3 +97,37 @@ main {
 footer {
     background-color: orange;
 }
+
+
+/* Media Queries to follow - must be at the BOTTOM of the CSS file - in order of smallest screen size to largest */
+/* larger screen sizes */
+@media screen and (min-width : 768px) {
+   
+    /* header element */
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fix-content;
+        padding-right: 1rem;
+
+    }
+
+    /* to make the menu items display in a row */
+
+    #menu {
+        display: flex;
+    }
+
+    /* to give padding around menu items */
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+.nav-toggle-label {
+    display: none;
+}
+
+}
