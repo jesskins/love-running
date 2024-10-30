@@ -104,6 +104,15 @@ footer {
     background-color: orange;
 }
 
+footer ul {
+    display: block-inline;
+}
+
+
+
+
+
+
 
 /* Media Queries to follow - must be at the BOTTOM of the CSS file - in order of smallest screen size to largest */
 /* larger screen sizes */
