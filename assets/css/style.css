@@ -211,6 +211,19 @@ main {
     border: 2px solid white;
 }
 
+/* GALLERY */
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+/* to allow alt text to be readble without the line spacing as below */
+}
+
+#photos {
+    line-height: 0;
+
+}
+
 /* Footer */
 footer {
     padding-top: 2rem;
@@ -238,6 +251,13 @@ footer {
 }
 
 /* Media Queries to follow - must be at the BOTTOM of the CSS file - in order of smallest screen size to largest */
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* larger screen sizes */
 @media screen and (min-width : 768px) {
@@ -301,6 +321,11 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -335,5 +360,10 @@ footer {
 
     #benefits-physical > div {
         align-self: flex-end;
+    }
+
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
 }
