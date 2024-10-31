@@ -18,6 +18,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* utility!!!! */
+
+.hidden-heading {
+    display:none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
