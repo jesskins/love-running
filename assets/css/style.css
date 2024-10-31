@@ -188,6 +188,23 @@ main {
     margin: 0 auto;
 }
 
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 15px;
+    /* to prevent wrap on screens too small */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
 /* Footer */
 footer {
     padding-top: 2rem;
